@@ -1,0 +1,14 @@
+/*
+ * Create the function factorial here
+ * 
+ */
+var i;
+var f = 1;
+function factorial(n)
+{
+ for(i = 1; i <= n; i++)
+ {
+     f = f * i;
+ }
+ return f;
+}
