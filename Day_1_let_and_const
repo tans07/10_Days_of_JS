@@ -1,0 +1,10 @@
+function main() {
+    // Write your code here. Read input using 'readLine()' and print output using 'console.log()'.
+    let r = readLine();
+    const PI = Math.PI;
+    let area;
+    let perimeter;
+    area = PI*r*r;
+    perimeter = 2*PI*r;
+    console.log(area);
+    console.log(perimeter);
