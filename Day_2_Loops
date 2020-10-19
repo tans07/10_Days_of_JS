@@ -1,0 +1,19 @@
+function vowelsAndConsonants(s) {
+    var sr = Array.from(s);
+    var a = 'aeiou';
+    var ar = Array.from(a);
+    var text = '';
+    sr.forEach(element => {
+        if(element == 'a' || element == 'e' || element == 'i' || element == 'o' ||                   element == 'u')
+            {
+                console.log(element);
+            }
+        else
+            text += element;
+     });
+
+    var tr = Array.from(text);
+    tr.forEach(element =>{
+    console.log(element);
+});
+}
