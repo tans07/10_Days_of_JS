@@ -1,0 +1,21 @@
+function reverseString(s) {
+    try
+    {
+    if(typeof(s) == typeof(""))
+    {
+        var list1 = s.split('');
+        // console.log(list1);
+        var list2 = list1.reverse();
+        // console.log(list2);
+        // console.log(list2.join(''));
+        var list3 = list2.join('');
+        console.log(list3);
+    }
+    else 
+     throw "s.split is not a function";
+}
+catch(err){
+    console.log(err);
+    console.log(s);
+}
+}
