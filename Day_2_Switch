@@ -1,0 +1,17 @@
+function getLetter(s) {
+    let letter;
+    // Write your code here
+    const set1 = new Set(['a','e','i','o','u']);
+    const set2 = new Set(['b','c','d','f','g']);
+    const set3 = new Set(['j','k','l','m','h']);
+    const set4 = new Set(['n','p','q','r','s','t','v','w','x','y','z']);
+    if(set1.has(s[0]))
+     letter = "A";
+    else if(set2.has(s[0]))
+     letter = "B";
+    else if(set3.has(s[0]))
+     letter = "C";
+    else if(set4.has(s[0]))
+     letter = "D";
+    return letter;     
+}
