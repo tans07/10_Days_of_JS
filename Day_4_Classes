@@ -1,0 +1,13 @@
+class Polygon{
+    constructor(ar){
+        this.ar = ar;
+    }
+    perimeter(){
+        var c = 0,i;
+        for(i = 0 ; i < this.ar.length ; i++)
+        {
+            c += this.ar[i];
+        }
+        return c;
+    }
+}
